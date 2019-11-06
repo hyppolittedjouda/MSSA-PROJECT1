@@ -59,19 +59,19 @@ h3
 	
 }
 
-.Role
+.Information
 {
 	position:absolute;
 	width: 1200 px;
 	margin-left: 0;
 	margin-top: 0; 
 }
-.Role h1
+.Information h1
 {
 	color:black;
 	font-size:auto;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 100px;
 	margin-left: 400px;
 }
 
@@ -83,16 +83,25 @@ h3
 }
 .validation button
 {
-	size:;
+	text-transform: uppercase;
+	font-size: 70 px;
+}
+
+.Login
+{
+	margin-top: 40px;
+	
+	float:left-side;
+}
+.FootNote
+{
+	margin-top: 450px;
+	font-size:auto;
+	float:left-side;
+	background-color: red;
 }
 
 
 
 
 
-
-
-
-
-
-	

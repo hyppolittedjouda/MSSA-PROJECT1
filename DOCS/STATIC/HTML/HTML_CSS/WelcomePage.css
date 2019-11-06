@@ -1,0 +1,174 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-color: lightblue;
+	
+}
+
+.main-nav
+{
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+	
+}
+
+.main-nav li
+{
+	display: inline;
+	
+}
+
+.main-nav li button
+{
+	
+	padding: auto;
+	font-size: 15px;
+	margin: auto;
+	
+	
+}
+.Logo img
+{
+	width: 100px;
+	height:auto;
+	float:left;
+}
+
+.Name 
+{
+	
+	width: 1200px;
+	margin-left: 10px;
+	position:bottom;
+	
+	
+	
+	
+}
+h3
+{
+	color: green;
+	text-transform: uppercase;
+	font-size: 70 px;
+
+	
+}
+
+.Welcome
+{
+	position:absolute;
+	width: 1200 px;
+	margin-left: 0;
+	margin-top: 0; 
+}
+.Welcome h1
+{
+	color:black;
+	font-size:auto;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 400px;
+}
+
+.validation
+{
+	margin-top: 40px;
+	margin-left: 550px;
+	
+}
+.validation button
+{
+	text-transform: uppercase;
+	font-size: 70 px;
+}
+
+.Login
+{
+	margin-top: 40px;
+	
+	float:left-side;
+}
+
+/*.Menu
+{
+	
+	margin-top: 200px;
+	
+	float:left-side;
+	border: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+/*.Message
+{
+	color:black;
+	font-size:auto;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 400px;
+	float:left-side;
+	
+}*/
+
+.FootNote
+{
+	margin-top: 450px;
+	font-size:auto;
+	float:left-side;
+	background-color: red;
+}
+
+#Container
+{
+	width: 800px;
+}
+.Menu 
+{
+	
+	margin-top: 100px;
+	padding-left:0px;
+	float:left;
+	
+    width: 100px;
+	height: 75px
+	
+    
+	
+	
+}
+.Message
+{
+	
+	
+	margin-top: 100px;
+	padding-left:50px;
+	float:left;
+	
+    width: 400px;
+	height: 75px
+	
+	
+    
+}
+
+
+.Links
+ {
+   margin-top: 50px;
+	padding-left:30px;
+	float:right;
+	margin-left: 30px;
+	
+    width: 200px;
+	height: 75px
+
+ }
+
+
+

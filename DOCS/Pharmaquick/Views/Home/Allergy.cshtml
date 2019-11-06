@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewData["Title"] = "Allergy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-lumen.css" />
+    </environment>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 500px;
+            Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .display-4 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-center">
+        <h5 class="display-4">Welcome to pharmaquick, Please login or register to create an account.</h5>
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm" style="background-color:; float:left; width: 20%">
+
+            <div class="btn-group-vertical" style="padding-bottom:50px; padding-top:30px">
+
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-controller="Home" asp-action="Patient">Patient</a>
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-area="" asp-controller="Home" asp-action="Medication">Medication</a>
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-area="" asp-controller="Home" asp-action="Allergy">Allergy</a>
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-area="" asp-controller="Home" asp-action="Provider">Provider</a>
+
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-area="" asp-controller="Home" asp-action="History">History</a>
+                <a class="btn btn-primary btn-lg" type="button" style="height:60px; background-color:green" asp-area="" asp-controller="Home" asp-action="Immunization">Immunization</a>
+
+                @*<button class="btn btn-primary btn-lg" type="button">Medication</button>
+                    <button class="btn btn-primary btn-lg" type="button">Allergies</button>
+                    <button class="btn btn-primary btn-lg" type="button">Provider</button>
+                    <button class="btn btn-primary btn-lg" type="button">Refill</button>
+                    <button class="btn btn-primary btn-lg" type="button">Medical History</button>
+                    <button class="btn btn-primary btn-lg" type="button">Imunization</button>*@
+
+            </div>
+
+
+        </div>
+
+        <div class="col-sm" style="color:black; float:left; width: 50%">
+
+            <h1 style="text-align:center"></h1>
+            <h1>List Allergies</h1>
+
+        </div>
+
+
+
+        <div class="col-sm" style="color:black; float:right; width: 30%">
+
+            <h2 style="text-align:center; text-decoration:initial">Quick Links</h2>
+            <hr \>
+            <p>
+                Patients with Chronic Migraine could see the benefits of Lasmitidan:
+                <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatment-patients-migraine" target="_blank">Food and Drug Administration</a>
+                <img src="~/Images/lasmiditan.jpg" alt="Picture Medication" width="300" height="200">
+
+            </p>
+
+            <p>
+                Biologics Reference Standard:
+                <a href="https://www.usp.org/reference-standards/reference-standards-catalog" target="_blank"> United States Pharmacopeia </a>
+            </p>
+
+            <p>
+                Drugs & Medications Search:
+                <a href="https://www.webmd.com/drugs/2/index" target="_blank"> WEB MD </a>
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>
+
